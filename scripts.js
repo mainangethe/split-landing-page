@@ -2,7 +2,7 @@ const containerDiv = document.querySelector('.container');
 const leftSection = document.querySelector('.left');
 const rightSection = document.querySelector('.right');
 
-leftSection.addEventListener('mousecenter', () => {
+leftSection.addEventListener('mouseenter', () => {
   containerDiv.classList.add('hover-left');
 });
 
@@ -10,7 +10,7 @@ leftSection.addEventListener('mouseleave', () => {
   containerDiv.classList.remove('hover-left');
 });
 
-rightSection.addEventListener('mousecenter', () => {
+rightSection.addEventListener('mouseenter', () => {
   containerDiv.classList.add('hover-right');
 });
 
